@@ -1,0 +1,153 @@
+body {
+    background-color: white;
+    text-align: center;
+    font-family: 'Glacial Indifference', sans-serif;
+    line-height: 2;
+    color: rgb(32, 32, 32);
+    font-size: 1.45rem;
+}
+
+p {
+    line-height: 2;
+}
+
+h1 {
+    margin: 2.65rem auto 0 auto;
+    font-family: 'Sacramento', cursive;
+    font-size: 5.62rem;
+    color: #3d2580;
+    line-height: 2;
+}
+
+h2 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 2.5rem;
+    color: #3d2580;
+    font-weight: normal;
+}
+
+h3 {
+    font-family: 'Montserrat', sans-serif;
+    color: #11999E;
+    font-weight: 300;
+}
+
+.dot {
+    border-top: 7px dotted #EAF6F6;
+    width: 5%;
+    border-bottom: none;
+    border-left: none;
+    border-right: none;
+}
+
+.skill-row {
+    width: 50%;
+    margin: 100px auto 200px auto;
+    text-align: left;
+    line-height: 2;
+}
+
+.s1 {
+    width: 150px;
+    float: left;
+    margin-right: 30px;
+    border-radius: 50%;
+}
+
+.s3 {
+    width: 150px;
+    height: 130px;
+    float: left;
+    padding: auto;
+    margin-right: 30px;
+    border-radius: 50%;
+}
+
+.s2 {
+    width: 150px;
+    float: right;
+    margin-left: 30px;
+    border-radius: 50%;
+}
+
+.up {
+    position: absolute;
+    right: 20%;
+    top: 50px;
+}
+
+.down {
+    position: absolute;
+    bottom: 54%;
+    left: 20%;
+}
+
+.pro {
+    text-decoration: underline;
+}
+
+.top {
+    background-color: #EAF6F6;
+    padding-top: 100px;
+    position: relative;
+    margin-bottom: 100px;
+    padding: 50px;
+}
+
+.footer-link {
+    color: #11999E;
+    text-align: center;
+    margin: 30px;
+}
+
+.bottom-container {
+    background-color: #66BFBF;
+    padding: 50px;
+}
+
+.button {
+    background-color: #66BFBF;
+    text-align: center;
+    font-size: 1rem;
+    margin: 100px;
+    border-radius: 10px;
+    border: none;
+    width: auto;
+    padding: 20px;
+    cursor: pointer;
+    color: white;
+}
+
+#projects {
+    margin-left: 30%;
+}
+
+#node {
+    list-style-image: url("https://img.icons8.com/color/50/000000/nodejs.png");
+}
+
+#js {
+    list-style-image: url("https://img.icons8.com/color/50/000000/javascript.png");
+}
+
+#flutter {
+    list-style-image: url("https://img.icons8.com/color/50/000000/flutter.png");
+}
+
+#java {
+    list-style-image: url("https://img.icons8.com/color/50/000000/java.png");
+}
+
+#dart {
+    list-style-image: url("https://img.icons8.com/color/50/000000/dart.png");
+}
+
+li>a {
+    text-align: center;
+    border: none;
+    width: auto;
+    font-family: inherit;
+    line-height: 2;
+    color: inherit;
+    font-size: 1.45rem;
+}

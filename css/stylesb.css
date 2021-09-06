@@ -1,0 +1,151 @@
+body {
+    background-color: #17004e;
+    text-align: center;
+    font-family: 'Glacial Indifference', sans-serif;
+    line-height: 2;
+    color: white;
+    font-size: 1.45rem;
+}
+
+p {
+    line-height: 2;
+}
+
+h1 {
+    margin: 2.65rem auto 0 auto;
+    font-family: 'Sacramento', cursive;
+    font-size: 5.62rem;
+    color: #66BFBF;
+    line-height: 2;
+}
+
+h2 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 2.5rem;
+    color: #66BFBF;
+    font-weight: normal;
+}
+
+h3 {
+    font-family: 'Montserrat', sans-serif;
+    color: #11999E;
+    font-weight: 300;
+}
+
+.dot {
+    border-top: 7px dotted #EAF6F6;
+    width: 5%;
+    border-bottom: none;
+    border-left: none;
+    border-right: none;
+}
+
+.skill-row {
+    width: 50%;
+    margin: 100px auto 200px auto;
+    text-align: left;
+    line-height: 2;
+}
+
+.s1 {
+    width: 150px;
+    float: left;
+    margin-right: 30px;
+    border-radius: 50%;
+}
+
+.s1 {
+    width: 180px;
+    height: 150px;
+    float: left;
+    margin-right: 30px;
+    border-radius: 50%;
+}
+
+.s2 {
+    width: 150px;
+    float: right;
+    margin-left: 30px;
+    border-radius: 50%;
+}
+
+.up {
+    position: absolute;
+    right: 20%;
+    top: 50px;
+}
+
+.down {
+    position: absolute;
+    bottom: 54%;
+    left: 20%;
+}
+
+.pro {
+    text-decoration: underline;
+}
+
+.top {
+    background-color: #0e0030;
+    padding-top: 100px;
+    position: relative;
+    margin-bottom: 100px;
+}
+
+.footer-link {
+    color: white;
+    text-align: center;
+    margin: 30px;
+}
+
+.bottom-container {
+    background-color: #1C1C1C;
+    padding: 50px;
+}
+
+.button {
+    background-color: #1C1C1C;
+    text-align: center;
+    font-size: 1rem;
+    margin: 100px;
+    border-radius: 10px;
+    border: none;
+    width: auto;
+    padding: 20px;
+    cursor: pointer;
+    color: white;
+}
+
+#projects {
+    margin-left: 40%;
+}
+
+#node {
+    list-style-image: url("https://img.icons8.com/color/50/000000/nodejs.png");
+}
+
+#js {
+    list-style-image: url("https://img.icons8.com/color/50/000000/javascript.png");
+}
+
+#flutter {
+    list-style-image: url("https://img.icons8.com/color/50/000000/flutter.png");
+}
+
+#java {
+    list-style-image: url("https://img.icons8.com/color/50/000000/java.png");
+}
+
+#dart {
+    list-style-image: url("https://img.icons8.com/color/50/000000/dart.png");
+}
+
+li>a {
+    text-align: center;
+    border: none;
+    width: auto;
+    font-family: inherit;
+    line-height: 2;
+    color: inherit;
+    font-size: 1.45rem;
+}
