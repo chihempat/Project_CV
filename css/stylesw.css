@@ -28,7 +28,7 @@ h2 {
 
 h3 {
     font-family: 'Montserrat', sans-serif;
-    color: #11999E;
+    color: #3d2580;
     font-weight: 300;
 }
 
@@ -56,11 +56,10 @@ h3 {
 
 .s3 {
     width: 150px;
-    height: 130px;
+    height: 100px;
     float: left;
-    padding: auto;
     margin-right: 30px;
-    border-radius: 50%;
+    border-radius: 100%;
 }
 
 .s2 {
@@ -90,7 +89,6 @@ h3 {
     background-color: #EAF6F6;
     padding-top: 100px;
     position: relative;
-    margin-bottom: 100px;
     padding: 50px;
 }
 
@@ -196,7 +194,7 @@ switch {
 }
 
 input:checked+.slider {
-    background-color: #2196F3;
+    background-color: #2d0075;
 }
 
 input:focus+.slider {
@@ -227,3 +225,19 @@ input:checked+.slider:before {
     height: 34px;
     margin-left: 95%;
 }
+
+::marker {
+    align-items: center;
+    margin: 10px;
+}
+
+.back {
+    padding: 20px;
+    background-color: #EAF6F6;
+}
+
+
+/* body {
+    background-image: url('https://images.unsplash.com/photo-1519681393784-d120267933ba?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1124&q=100');
+    background-position: center;
+} */

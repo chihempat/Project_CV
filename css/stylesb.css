@@ -1,5 +1,5 @@
 body {
-    background-color: #17004e;
+    background-color: #121928;
     text-align: center;
     font-family: 'Glacial Indifference', sans-serif;
     line-height: 2;
@@ -15,20 +15,20 @@ h1 {
     margin: 2.65rem auto 0 auto;
     font-family: 'Sacramento', cursive;
     font-size: 5.62rem;
-    color: #66BFBF;
+    color: #65d69c;
     line-height: 2;
 }
 
 h2 {
     font-family: 'Montserrat', sans-serif;
     font-size: 2.5rem;
-    color: #66BFBF;
+    color: #65d69c;
     font-weight: normal;
 }
 
 h3 {
     font-family: 'Montserrat', sans-serif;
-    color: #11999E;
+    color: #65d69c;
     font-weight: 300;
 }
 
@@ -56,11 +56,11 @@ h3 {
 
 .s3 {
     width: 150px;
-    height: 130px;
+    height: 120px;
     float: left;
     padding: auto;
     margin-right: 30px;
-    border-radius: 50%;
+    border-radius: 70%;
 }
 
 .s2 {
@@ -87,10 +87,8 @@ h3 {
 }
 
 .top {
-    background-color: #0e0030;
     padding-top: 100px;
     position: relative;
-    margin-bottom: 100px;
     padding: 50px;
 }
 
@@ -101,12 +99,12 @@ h3 {
 }
 
 .bottom-container {
-    background-color: #1C1C1C;
+    background-color: #020408;
     padding: 50px;
 }
 
 .button {
-    background-color: #1C1C1C;
+    background-color: #020408;
     text-align: center;
     font-size: 1rem;
     margin: 100px;
@@ -196,7 +194,7 @@ switch {
 }
 
 input:checked+.slider {
-    background-color: #2196F3;
+    background-color: #121928;
 }
 
 input:focus+.slider {
@@ -226,4 +224,25 @@ input:checked+.slider:before {
     width: 60px;
     height: 34px;
     margin-left: 95%;
+}
+
+.card {
+    backdrop-filter: blur(19px) saturate(59%);
+    -webkit-backdrop-filter: blur(19px) saturate(59%);
+    background-color: rgba(17, 25, 40, 0.2);
+    border-radius: 12px;
+    border: 1px solid rgba(255, 255, 255, 0.125);
+}
+
+
+/*
+.back {
+    padding: 20px;
+    background: rgb(18, 25, 40);
+    background: linear-gradient(0deg, rgba(18, 25, 40, 1) 0%, rgb(3, 3, 114) 100%);
+} */
+
+.back {
+    padding: 20px;
+    background-image: url(https://static.planetminecraft.com/files/image/minecraft/texture-pack/2021/254/14785958_l.webp);
 }
