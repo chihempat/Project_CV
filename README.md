@@ -1,7 +1,8 @@
 # projectcv.io
-Protfolio Website 
-[DarkMode](/images/ssb1.png),
-[LightMode](/images/ssw1.png),
-[Contact](/images/ssw2.png),
+Protfolio Website.
+
+(./images/ssb1.png),
+(./images/ssw1.png),
+(./images/ssw2.png),
 
 
