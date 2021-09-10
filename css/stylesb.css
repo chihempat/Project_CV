@@ -269,6 +269,7 @@ input:checked+.slider:before {
 
 h4 {
     color: inherit;
+    font: inherit;
 }
 
 .xp {
