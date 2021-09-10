@@ -32,6 +32,13 @@ h3 {
     font-weight: 300;
 }
 
+.xp {
+    border-radius: 50%;
+    width: 60px;
+    margin-right: 20px;
+    margin-bottom: 20px;
+}
+
 .dot {
     border-top: 7px dotted #EAF6F6;
     width: 5%;
@@ -66,7 +73,7 @@ h3 {
     width: 150px;
     float: right;
     margin-left: 30px;
-    border-radius: 50%;
+    border-radius: 100%;
 }
 
 .up {
@@ -117,7 +124,7 @@ h3 {
 }
 
 #projects {
-    margin-left: 30%;
+    margin-left: 35%;
 }
 
 #node {
@@ -138,6 +145,26 @@ h3 {
 
 #dart {
     list-style-image: url("https://img.icons8.com/color/50/000000/dart.png");
+}
+
+#Ip {
+    list-style-image: url("../images/ip2.png");
+}
+
+#OBB {
+    list-style-image: url("https://img.icons8.com/color/50/000000/dart.png");
+}
+
+#IT {
+    list-style-image: url("https://img.icons8.com/fluency/48/000000/computers-connecting.png");
+}
+
+#tw {
+    list-style-image: url("https://img.icons8.com/color/48/000000/12.png");
+}
+
+#ten {
+    list-style-image: url("https://img.icons8.com/color/48/000000/10.png");
 }
 
 li>a {

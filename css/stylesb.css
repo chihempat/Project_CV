@@ -117,11 +117,19 @@ h3 {
 }
 
 #projects {
-    margin-left: 40%;
+    margin-left: 35%;
 }
 
 #node {
     list-style-image: url("https://img.icons8.com/color/50/000000/nodejs.png");
+}
+
+#js {
+    list-style-image: url("https://img.icons8.com/color/50/000000/javascript.png");
+}
+
+#flutter {
+    list-style-image: url("https://img.icons8.com/color/50/000000/flutter.png");
 }
 
 #js {
@@ -138,6 +146,18 @@ h3 {
 
 #dart {
     list-style-image: url("https://img.icons8.com/color/50/000000/dart.png");
+}
+
+#IT {
+    list-style-image: url("https://img.icons8.com/fluency/48/000000/computers-connecting.png");
+}
+
+#tw {
+    list-style-image: url("https://img.icons8.com/color/48/000000/12.png");
+}
+
+#ten {
+    list-style-image: url("https://img.icons8.com/color/48/000000/10.png");
 }
 
 li>a {
@@ -245,4 +265,15 @@ input:checked+.slider:before {
 .back {
     padding: 20px;
     background-image: url(https://static.planetminecraft.com/files/image/minecraft/texture-pack/2021/254/14785958_l.webp);
+}
+
+h4 {
+    color: inherit;
+}
+
+.xp {
+    border-radius: 50%;
+    width: 60px;
+    margin-right: 20px;
+    margin-bottom: 20px;
 }
